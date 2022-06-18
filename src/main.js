@@ -6,8 +6,7 @@ import BoardPresenter from './presenter/board-presenter.js';
 const siteMainElement = document.querySelector('.main');
 const siteHeaderElement = siteMainElement.querySelector('.main__control');
 const boardPresenter = new BoardPresenter();
-
 render(new NewTaskButtonView(), siteHeaderElement);
 render(new FilterView(), siteMainElement);
-
 boardPresenter.init(siteMainElement);
+
