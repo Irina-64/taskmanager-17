@@ -9,6 +9,8 @@ Thumbs.db
 
 # Вспомогательные файлы
 *.log*
+@@ -12,3 +12,4 @@ Thumbs.db
 node_modules/
 
 # Собранные файлы
+build/
